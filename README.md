@@ -1,12 +1,8 @@
-# MFGeometryLibrary
-Library for creating some geometrical objects and their physics representation for bulletPhysics.
-Base geometries can be found in the dir [MFBaseGeometries](https://github.com/etkmichi/MFGeometryLibrary/tree/main/MFGeometryLibrary/MFBaseGeometries)
+# MFRenderLibraries
+Library for rendering with vulkan.
+Only base implementation for rendering a 3D scene, that means there are no shadows in the scene, no special lightning and a lot of other stuff is missing.
 
-The MFNoiseGeometry can be used to create more complex surfaces. The related physics object is not convex and may use a lot of process time. A better implementation would be to map noise values onto a box. The box is a convex physics shape and will result in less physics glitches. The mapped noise points can be scaled for better performance.
-
-The compund geometry classes can be used to stick some geometries together (including the physical representations).
-
-Supported OS:
+OS:
   * Linux
 
 Additional libraries:<br>
